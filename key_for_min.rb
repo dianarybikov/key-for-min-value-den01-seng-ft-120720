@@ -7,7 +7,7 @@ lowest_value = Float::INFINITY
 name_hash.each do |x, y|
 if y < lowest_value
   lowest_value = y 
-  lowest_key == x
+  lowest_key = x
 end
 end
 p lowest_key
