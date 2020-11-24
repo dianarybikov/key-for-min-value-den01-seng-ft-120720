@@ -10,5 +10,5 @@ if y < lowest_value
   lowest_key == x
 end
 end
-lowest_key
+p lowest_key
 end
